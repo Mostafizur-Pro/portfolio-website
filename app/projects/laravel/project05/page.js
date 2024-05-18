@@ -14,7 +14,7 @@ export default function Project05() {
         transition={{ delay: 2, duration: 0.5 }}
         className="grow m-2  rounded-xl flex flex-col bg-slate-500 bg-opacity-5"
       >
-        <Image src="/images/corner1.png" width={100} height={100} alt="spin" />
+        <Image src="/images/projects/corner1.png" width={100} height={100} alt="spin" />
         <div className="sm:px-8 px-4 grow">
           <div className="text-white font-bold text-3xl ml-6 mt-2">
             Weather App
@@ -46,7 +46,7 @@ export default function Project05() {
             <div className="text-red-600 font-bold">Images</div>
             <div className="sm:ml-6 mt-4 sm:flex space-y-2 sm:space-y-0 gap-12">
               <Image
-                src="/images/sky_02.jpg"
+                src="/images/projects/sky_02.jpg"
                 width={200}
                 height={200}
                 className="border-4 border-sky-300 rounded-lg"
@@ -54,7 +54,7 @@ export default function Project05() {
               />
 
               <Image
-                src="/images/sky_01.jpg"
+                src="/images/projects/sky_01.jpg"
                 width={200}
                 height={200}
                 className="border-4 border-sky-300 rounded-lg"
@@ -105,7 +105,7 @@ export default function Project05() {
 
         <div className="flex flex-row justify-end">
           <Image
-            src="/images/corner2.png"
+            src="/images/projects/corner2.png"
             width={100}
             height={100}
             alt="spin"

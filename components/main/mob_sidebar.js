@@ -86,7 +86,7 @@ export default function MobileSidebar({ navs, width }) {
               class="w-12 h-12 text-white rounded-full mt-0  inline-flex items-center justify-center  "
             >
               <Image
-                src="/images/spin.png"
+                src="/images/projects/spin.png"
                 width={500}
                 height={500}
                 alt="spin"
@@ -126,7 +126,7 @@ export default function MobileSidebar({ navs, width }) {
 
             <div className="w-12 h-12 text-white rounded-full mt-0  inline-flex items-center justify-center  ">
               <Image
-                src="/images/spin.png"
+                src="/images/projects/spin.png"
                 width={500}
                 height={500}
                 alt="spin"

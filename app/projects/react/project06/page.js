@@ -14,7 +14,7 @@ export default function Project06() {
         transition={{ delay: 2, duration: 0.5 }}
         className="grow m-2  rounded-xl flex flex-col bg-slate-500 bg-opacity-5"
       >
-        <Image src="/images/corner1.png" width={100} height={100} alt="spin" />
+        <Image src="/images/projects/corner1.png" width={100} height={100} alt="spin" />
         <div className="sm:px-8 px-4 grow">
           <div className="text-white font-bold text-3xl ml-6 mt-2">
             Mechanic Service Application
@@ -48,7 +48,7 @@ export default function Project06() {
 
             <div className="sm:ml-6 mt-4 sm:flex space-y-2 sm:space-y-0 gap-12">
               <Image
-                src="/images/mech_01.jpg"
+                src="/images/projects/mech_01.jpg"
                 width={200}
                 height={200}
                 className="border-4 border-sky-300 rounded-lg"
@@ -56,7 +56,7 @@ export default function Project06() {
               />
 
               <Image
-                src="/images/mech_02.jpg"
+                src="/images/projects/mech_02.jpg"
                 width={200}
                 height={200}
                 className="border-4 border-sky-300 rounded-lg"
@@ -66,7 +66,7 @@ export default function Project06() {
 
             <div className="sm:ml-6 mt-4 sm:flex space-y-2 sm:space-y-0 gap-12">
               <Image
-                src="/images/mech_03.jpg"
+                src="/images/projects/mech_03.jpg"
                 width={200}
                 height={200}
                 className="border-4 border-sky-300 rounded-lg"
@@ -74,7 +74,7 @@ export default function Project06() {
               />
 
               <Image
-                src="/images/mech_04.jpg"
+                src="/images/projects/mech_04.jpg"
                 width={200}
                 height={200}
                 className="border-4 border-sky-300 rounded-lg"
@@ -127,7 +127,7 @@ export default function Project06() {
 
         <div className="flex flex-row justify-end">
           <Image
-            src="/images/corner2.png"
+            src="/images/projects/corner2.png"
             width={100}
             height={100}
             alt="spin"

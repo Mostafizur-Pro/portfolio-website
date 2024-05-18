@@ -16,7 +16,7 @@ export default function Skillinfo() {
     className='grow m-2  rounded-xl flex flex-col bg-slate-500 bg-opacity-5'>
       
       <Image
-                src="/images/corner1.png"
+                src="/images/projects/corner1.png"
                 width={100}
                 height={100}
                 alt="spin"
@@ -70,7 +70,7 @@ export default function Skillinfo() {
 
         <div className='flex flex-row justify-end'>
         <Image
-                src="/images/corner2.png"
+                src="/images/projects/corner2.png"
                 width={100}
                 height={100}
                 alt="spin"

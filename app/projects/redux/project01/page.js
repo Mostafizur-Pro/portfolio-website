@@ -15,17 +15,17 @@ export default function Project01() {
         transition={{ delay: 2, duration: 0.5 }}
         className="grow m-2  rounded-xl flex flex-col bg-slate-500 bg-opacity-5"
       >
-        <Image src="/images/corner1.png" width={100} height={100} alt="spin" />
+        <Image src="/images/projects/corner1.png" width={100} height={100} alt="spin" />
         <div className="sm:px-8 px-4 grow">
           <div className="text-white font-bold text-3xl ml-6 mt-2">
-            Club Management Website
+            Resume Builder Web Application
           </div>
 
           <div className="text-white ml-6 mt-8 text-base ">
             <div className="flex gap-2">
               <div className="font-semibold">Title</div>
               <div className="font-semibold ml-4">-</div>
-              <div className="font-semibold">CMS</div>
+              <div className="font-semibold">Unique Resume </div>
             </div>
             <div className="flex gap-2">
               <div className="font-semibold">Type</div>
@@ -40,16 +40,18 @@ export default function Project01() {
             <div className="my-4">
               <div className="text-red-600 font-bold">Description</div>
               <div className="font-semibold sm:text-base text-sm">
-                A website to manage the clubs of a institution. Where students
-                will be able to join clubs and communicate within a group
-                through chatbox. Club presidents will be able to post notice and
-                add events to calender which will be visivle to students.
+                Unique Resume is an intuitive online platform that allows users
+                to effortlessly create professional resumes tailored to their
+                specific needs. With an easy-to-use interface and customizable
+                templates, users can input their personal information, education
+                background, work experience, skills, and achievements to
+                generate a polished resume in minutes.
               </div>
             </div>
             <div className="text-red-600 font-bold">Images</div>
             <div className="sm:ml-6 mt-4">
               <Image
-                src="/images/club_01.png"
+                src="/images/projects/club_01.png"
                 width={700}
                 height={700}
                 className="border-4 border-sky-300 rounded-lg"
@@ -58,7 +60,7 @@ export default function Project01() {
             </div>
             <div className="sm:ml-6 mt-4">
               <Image
-                src="/images/club_02.png"
+                src="/images/projects/club_02.png"
                 width={700}
                 height={700}
                 className="border-4 border-sky-300 rounded-lg"
@@ -67,7 +69,7 @@ export default function Project01() {
             </div>
             <div className="sm:ml-6 mt-4">
               <Image
-                src="/images/club_03.png"
+                src="/images/projects/club_03.png"
                 width={700}
                 height={700}
                 className="border-4 border-sky-300 rounded-lg"
@@ -76,7 +78,7 @@ export default function Project01() {
             </div>
             <div className="sm:ml-6 mt-4">
               <Image
-                src="/images/club_04.png"
+                src="/images/projects/club_04.png"
                 width={700}
                 height={700}
                 className="border-4 border-sky-300 rounded-lg"
@@ -90,17 +92,19 @@ export default function Project01() {
                   <td className="px-2 pb-24">-</td>
                   <td className="font-semibold text-white  sm:text-base text-sm pl-6 pt-6 break-words">
                     <ul className="list-disc">
-                      <li>Multiple clubs</li>
+                      <li>User Friendly Interface</li>
+                      <li>Customizable Templates</li>
+                      <li>Personalized Sections</li>
+                      <li>Live Preview</li>
+                      <li>Share and Print</li>
+                      <li>Responsive Design</li>
+                      <li>Privacy and Security</li>
                       <li>Admin panel to manage president information</li>
-                      <li>Chat box for every club</li>
-                      <li>Calender and notice board</li>
-                      <li>Search box</li>
-                      <li>Club joinning request handled by president</li>
                     </ul>
                   </td>
                 </tr>
                 <tr>
-                  <td className="font-bold text-white  text-base pb-6">
+                  <td className="font-bold text-white  text-base py-10">
                     Tools used
                   </td>
                   <td className="px-2 pb-6">-</td>
@@ -113,18 +117,38 @@ export default function Project01() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="font-bold text-white  text-base pt-4">
+                  <td className="font-bold text-white  text-base ">
                     Source code
                   </td>
                   <td className="px-2 pt-4">-</td>
-                  <td className="font-semibold text-red-600  sm:text-base text-sm pl-3 pt-4 break-all">
-                    <Link
-                      href={
-                        "https://github.com/Ejaz0000/Club-management-web.git"
-                      }
-                    >
-                      https://github.com/Ejaz0000/Club-management-web.git
-                    </Link>
+                  <td className="font-semibold text-red-600  sm:text-base text-sm pl-6  break-all">
+                    <ul className="list-disc">
+                      <li>
+                        {" "}
+                        <Link href={"htthttps://unique-resume.vercel.app/"}>
+                          Live Link
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href={
+                            "https://github.com/Mostafizur-Pro/unique_resume_client"
+                          }
+                        >
+                          Client Side
+                        </Link>
+                      </li>
+                      <li>
+                        {" "}
+                        <Link
+                          href={
+                            "https://github.com/Mostafizur-Pro/unique_resume_server"
+                          }
+                        >
+                          Server Side
+                        </Link>
+                      </li>
+                    </ul>
                   </td>
                 </tr>
               </tbody>
@@ -134,7 +158,7 @@ export default function Project01() {
 
         <div className="flex flex-row justify-end">
           <Image
-            src="/images/corner2.png"
+            src="/images/projects/corner2.png"
             width={100}
             height={100}
             alt="spin"
