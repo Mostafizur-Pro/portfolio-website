@@ -1,13 +1,14 @@
 "use client";
 
-import Projects from "@/components/main/projects1";
+import Laravel from "@/components/main/Laravel";
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Project01() {
   return (
-    <Projects>
+    <Laravel>
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -140,6 +141,6 @@ export default function Project01() {
           />
         </div>
       </motion.main>
-    </Projects>
+    </Laravel>
   );
 }

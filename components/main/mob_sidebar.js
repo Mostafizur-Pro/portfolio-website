@@ -13,6 +13,7 @@ export default function MobileSidebar({ navs, width }) {
   var sidebarAnimate;
 
   const pathname = usePathname();
+  // console.log('hi', pathname)
 
   if (
     pathname.includes("/webinfo") ||
