@@ -1,13 +1,13 @@
 "use client";
 
-import Projects from "@/components/main/projects";
+import Nextjs from "@/components/main/Nextjs";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Project01() {
   return (
-    <Projects>
+    <Nextjs>
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -140,6 +140,6 @@ export default function Project01() {
           />
         </div>
       </motion.main>
-    </Projects>
+    </Nextjs>
   );
 }

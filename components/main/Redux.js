@@ -8,97 +8,64 @@ import MobileSidebar from "./mob_sidebar";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-export default function Laravel({ children }) {
-  const ProjnavLaravel = [
+export default function Redux({ children }) {
+ 
+  const ProjnavRedux = [
     {
       name: "Project-01",
-      href: "/projects/laravel/project01",
+      href: "/projects/redux/project01",
       current: true,
       delay: 0.5,
     },
     {
       name: "Project-02",
-      href: "/projects/laravel/project02",
+      href: "/projects/redux/project02",
       current: false,
       delay: 0.8,
     },
-    {
-      name: "Project-03",
-      href: "/projects/laravel/project03",
-      current: false,
-      delay: 1,
-    },
-    {
-      name: "Project-04",
-      href: "/projects/laravel/project04",
-      current: false,
-      delay: 1.2,
-    },
-    {
-      name: "Project-05",
-      href: "/projects/laravel/project05",
-      current: false,
-      delay: 1.4,
-    },
-    {
-      name: "Project-06",
-      href: "/projects/laravel/project06",
-      current: false,
-      delay: 1.6,
-    },
-    {
-      name: "Project-07",
-      href: "/projects/laravel/project07",
-      current: false,
-      delay: 1.8,
-    },
+    // {
+    //   name: "Project-03",
+    //   href: "/projects/redux/project03",
+    //   current: false,
+    //   delay: 1,
+    // },
+    // {
+    //   name: "Project-04",
+    //   href: "/projects/redux/project04",
+    //   current: false,
+    //   delay: 1.2,
+    // },
+    // {
+    //   name: "Project-05",
+    //   href: "/projects/redux/project05",
+    //   current: false,
+    //   delay: 1.4,
+    // },
+    // {
+    //   name: "Project-06",
+    //   href: "/projects/redux/project06",
+    //   current: false,
+    //   delay: 1.6,
+    // },
+    // {
+    //   name: "Project-07",
+    //   href: "/projects/redux/project07",
+    //   current: false,
+    //   delay: 1.8,
+    // },
   ];
+
   // const pathname = usePathname();
   // console.log('hi', pathname)
 
   const mob_nav = [
-    {
-      name: "1",
-      href: "/projects/laravel/project01",
-      current: true,
-      delay: 0.5,
-    },
-    {
-      name: "2",
-      href: "/projects/laravel/project02",
-      current: false,
-      delay: 0.8,
-    },
-    {
-      name: "3",
-      href: "/projects/laravel/project03",
-      current: false,
-      delay: 1,
-    },
-    {
-      name: "4",
-      href: "/projects/laravel/project04",
-      current: false,
-      delay: 1.2,
-    },
-    {
-      name: "5",
-      href: "/projects/laravel/project05",
-      current: false,
-      delay: 1.4,
-    },
-    {
-      name: "6",
-      href: "/projects/laravel/project06",
-      current: false,
-      delay: 1.6,
-    },
-    {
-      name: "7",
-      href: "/projects/laravel/project07",
-      current: false,
-      delay: 1.8,
-    },
+    { name: "1", href: "/projects/redux/project01", current: true, delay: 0.5 },
+    { name: "2", href: "/projects/redux/project02", current: false, delay: 0.8 },
+    // { name: "3", href: "/projects/project03", current: false, delay: 1 },
+    // { name: "4", href: "/projects/project04", current: false, delay: 1.2 },
+    // { name: "5", href: "/projects/project05", current: false, delay: 1.4 },
+    // { name: "6", href: "/projects/project06", current: false, delay: 1.6 },
+    // { name: "7", href: "/projects/project07", current: false, delay: 1.8 },
   ];
   const navItems = [
     {
@@ -126,7 +93,7 @@ export default function Laravel({ children }) {
         <MobileSidebar navs={mob_nav} width={310} />
 
         {/* Render desktop sidebar with project navigation items */}
-        <Sidebar navs={ProjnavLaravel} height={660} />
+        <Sidebar navs={ProjnavRedux} height={660} />
 
         {/* Main content area */}
         <div className="my-5">
