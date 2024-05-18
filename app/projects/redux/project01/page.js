@@ -1,7 +1,6 @@
 "use client";
 
 import Redux from "@/components/main/Redux";
-
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +14,12 @@ export default function Project01() {
         transition={{ delay: 2, duration: 0.5 }}
         className="grow m-2  rounded-xl flex flex-col bg-slate-500 bg-opacity-5"
       >
-        <Image src="/images/projects/corner1.png" width={100} height={100} alt="spin" />
+        <Image
+          src="/images/projects/corner1.png"
+          width={100}
+          height={100}
+          alt="spin"
+        />
         <div className="sm:px-8 px-4 grow">
           <div className="text-white font-bold text-3xl ml-6 mt-2">
             Resume Builder Web Application
@@ -51,7 +55,7 @@ export default function Project01() {
             <div className="text-red-600 font-bold">Images</div>
             <div className="sm:ml-6 mt-4">
               <Image
-                src="/images/projects/club_01.png"
+                src="/images/redux/project01/image01.png"
                 width={700}
                 height={700}
                 className="border-4 border-sky-300 rounded-lg"
@@ -60,7 +64,7 @@ export default function Project01() {
             </div>
             <div className="sm:ml-6 mt-4">
               <Image
-                src="/images/projects/club_02.png"
+                src="/images/redux/project01/image02.png"
                 width={700}
                 height={700}
                 className="border-4 border-sky-300 rounded-lg"
@@ -69,7 +73,7 @@ export default function Project01() {
             </div>
             <div className="sm:ml-6 mt-4">
               <Image
-                src="/images/projects/club_03.png"
+                src="/images/redux/project01/image03.png"
                 width={700}
                 height={700}
                 className="border-4 border-sky-300 rounded-lg"
@@ -78,7 +82,16 @@ export default function Project01() {
             </div>
             <div className="sm:ml-6 mt-4">
               <Image
-                src="/images/projects/club_04.png"
+                src="/images/redux/project01/image04.png"
+                width={700}
+                height={700}
+                className="border-4 border-sky-300 rounded-lg"
+                alt="spin"
+              />
+            </div>
+            <div className="sm:ml-6 mt-4">
+              <Image
+                src="/images/redux/project01/image05.png"
                 width={700}
                 height={700}
                 className="border-4 border-sky-300 rounded-lg"
@@ -105,14 +118,27 @@ export default function Project01() {
                 </tr>
                 <tr>
                   <td className="font-bold text-white  text-base py-10">
-                    Tools used
+                    Front End Tools
                   </td>
                   <td className="px-2 pb-6">-</td>
                   <td className="font-semibold text-white  sm:text-base text-sm pl-6 pt-0">
                     <ul className="list-disc">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>JavaScript and PHP</li>
+                      <li>Redux</li>
+                      <li>Tailwind CSS</li>
+                      <li>Vercel</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="font-bold text-white  text-base py-10">
+                    Back End Tools
+                  </td>
+                  <td className="px-2 pb-6">-</td>
+                  <td className="font-semibold text-white  sm:text-base text-sm pl-6 pt-0">
+                    <ul className="list-disc">
+                      <li>NodeJs</li>
+                      <li>Mongoose</li>
+                      <li>Express Js</li>
                     </ul>
                   </td>
                 </tr>
@@ -125,7 +151,7 @@ export default function Project01() {
                     <ul className="list-disc">
                       <li>
                         {" "}
-                        <Link href={"htthttps://unique-resume.vercel.app/"}>
+                        <Link href={"https://unique-resume.vercel.app/"}>
                           Live Link
                         </Link>
                       </li>
