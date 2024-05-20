@@ -292,7 +292,7 @@ export default function Project01() {
                     <ul className="list-disc">
                       <li>
                         {" "}
-                        <Link href={"https://bprofile.org/"}>Live Link</Link>
+                        <Link target="_blank" href={"https://bprofile.org/"}>Live Link</Link>
                       </li>
                       <li>
                         {/* Open the modal using document.getElementById('ID').showModal() method */}
@@ -340,12 +340,16 @@ export default function Project01() {
         </div>
         {/* Modal */}
         <dialog id="my_modal_1" className="modal rounded-2xl">
-          <div className="modal-box p-4 md:p-5 border-b ">
-            <h3 className="text-xl font-semibold text-gray-900 ">Hello!</h3>
-            <p className="py-4">Live Project, Can not share private code!</p>
+          <div className="modal-box p-4 md:p-5 border-b">
+            <h3 className="text-xl font-semibold text-gray-900">Hello!</h3>
+            <p className="py-4">
+              Thank you for your interest! Unfortunately, this is a live
+              project, and we are unable to share private code. We appreciate
+              your understanding.
+            </p>
             <div className="modal-action">
               <form method="dialog">
-                {/* if there is a button in form, it will close the modal */}
+                {/* If there is a button in the form, it will close the modal */}
                 <button className="btn text-white bg-red-600 text-sm p-2 rounded-lg">
                   Close
                 </button>
