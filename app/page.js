@@ -23,7 +23,7 @@ export default function Myinfo() {
             <p className="text-center sm:text-start">
               {" "}
               Hi! I am{" "}
-              <span className="text-red-600 font-bold">Ejaz Ahmed</span>. As a
+              <span className="text-red-600 font-bold">Mostafizur Rahman</span>. As a
               dedicated and aspiring software developer, I am passionate about
               my skill in Computer science engineering to create innovative and
               user-friendly software. Along with hands-on experience in web

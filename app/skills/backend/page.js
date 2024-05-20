@@ -15,9 +15,16 @@ export default function BackendInfo() {
         transition={{ delay: 2, duration: 0.5 }}
         className="grow m-2  rounded-xl flex flex-col bg-slate-500 bg-opacity-5"
       >
-        <Image src="/images/projects/corner1.png" width={100} height={100} alt="spin" />
+        <Image
+          src="/images/projects/corner1.png"
+          width={100}
+          height={100}
+          alt="spin"
+        />
         <div className="px-8 grow">
-          <div className="text-white font-bold text-3xl ml-6 mt-2">Backend Info</div>
+          <div className="text-white font-bold text-3xl ml-6 mt-2">
+            Backend Info
+          </div>
 
           <div className="ml-6 mt-8 text-white">
             {/* <div className='text-white text-base flex gap-2'>
@@ -40,17 +47,21 @@ export default function BackendInfo() {
           <td className='px-2 '>-</td> */}
                   <td className="font-semibold text-white  text-base pl-4">
                     <ul className="list-disc">
-                      <li>Back End Web Developing</li>
-                      <li>Front End Web Developing</li>
-                      <li>Android Development</li>
-                      <li>Proficient in JavaScript</li>
-                      <li>Skilled in Java</li>
-                      <li>Familiar with C, C++, PHP and Dart</li>
+                      <li>Back End Web Development</li>
+                      <li>Proficient in Node.js and Express.js</li>
+                      <li>Skilled in TypeScript</li>
+                      <li>Experience with JWT Authentication</li>
                       <li>
-                        Have a good practice of Next.js and React.js and Flutter{" "}
+                        Familiar with MongoDB, Mongoose, Firebase, and MySQL
                       </li>
-                      <li>Basic knowledge of Laravel </li>
-                      <li>Familiar with MongoDB, Firebase and MySql </li>
+                      <li>Knowledgeable in Prisma and PostgreSQL</li>
+                      <li>
+                        Experience with RESTful API design and development
+                      </li>
+                      <li>Understanding of MVC architecture</li>
+                      <li>Skilled in server-side rendering and templating</li>
+
+                      <li>Understanding of web security practices</li>
                     </ul>
                   </td>
                 </tr>

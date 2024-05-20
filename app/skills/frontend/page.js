@@ -15,7 +15,12 @@ export default function FrontendInfo() {
         transition={{ delay: 2, duration: 0.5 }}
         className="grow m-2  rounded-xl flex flex-col bg-slate-500 bg-opacity-5"
       >
-        <Image src="/images/projects/corner1.png" width={100} height={100} alt="spin" />
+        <Image
+          src="/images/projects/corner1.png"
+          width={100}
+          height={100}
+          alt="spin"
+        />
         <div className="px-8 grow">
           <div className="text-white font-bold text-3xl ml-6 mt-2">
             Frontend Info
@@ -42,17 +47,27 @@ export default function FrontendInfo() {
           <td className='px-2 '>-</td> */}
                   <td className="font-semibold text-white  text-base pl-4">
                     <ul className="list-disc">
-                      <li>Back End Web Developing</li>
-                      <li>Front End Web Developing</li>
-                      <li>Android Development</li>
+                      <li>Front End Web Development</li>
                       <li>Proficient in JavaScript</li>
-                      <li>Skilled in Java</li>
-                      <li>Familiar with C, C++, PHP and Dart</li>
+                      <li>Familiar with HTML, CSS, and PHP</li>
+                      <li>Experienced with Next.js and React.js</li>
+                      <li>Standard knowledge of Laravel</li>
+                      <li>Knowledgeable in Tailwind CSS and Bootstrap</li>
                       <li>
-                        Have a good practice of Next.js and React.js and Flutter{" "}
+                        Skilled in creating responsive and interactive web
+                        applications
                       </li>
-                      <li>Basic knowledge of Laravel </li>
-                      <li>Familiar with MongoDB, Firebase and MySql </li>
+                      <li>Experience with version control systems like Git</li>
+                      <li>
+                        Understanding of web performance optimization techniques
+                      </li>
+                      <li>Basic understanding of SEO principles</li>
+                      <li>Familiar with RESTful APIs </li>
+                      <li>
+                        Experience with state management libraries such as Redux
+                      </li>
+
+                      <li>Basic familiarity with TypeScript</li>
                     </ul>
                   </td>
                 </tr>
