@@ -8,9 +8,10 @@ import { usePathname } from "next/navigation";
 
 export default function Sidebar({ navs, height }) {
   const [isVisible, setIsVisible] = useState(false);
-  const [justify, setjustify] = useState("justify-end");
+  const [sidebarAnimate, setSidebarAnimate] = useState(true);
+  const [justify, setJustify] = useState("justify-end");
 
-  var sidebarAnimate;
+  // var sidebarAnimate;
 
   const pathname = usePathname();
 
@@ -25,21 +26,21 @@ export default function Sidebar({ navs, height }) {
     pathname.includes("/project06") ||
     pathname.includes("/project07")
   ) {
-    sidebarAnimate = false;
+    setSidebarAnimate(false);
   } else {
-    sidebarAnimate = true;
+    setSidebarAnimate(true);
   }
 
   useEffect(() => {
     if (sidebarAnimate) {
       const timeout = setTimeout(() => {
         setIsVisible(true);
-        setjustify("justify-between");
+        setJustify("justify-between");
       }, 1500);
 
       return () => clearTimeout(timeout);
     }
-  }, []);
+  }, [sidebarAnimate]);
 
   if (sidebarAnimate == true) {
     return (
@@ -63,7 +64,7 @@ export default function Sidebar({ navs, height }) {
           >
             {isVisible && (
               <motion.nav className="flex flex-col gap-4">
-                {navs.map((item) => (
+                {navs?.map((item) => (
                   <motion.div
                     key={item.name}
                     initial={{ opacity: 0 }}
@@ -109,7 +110,7 @@ export default function Sidebar({ navs, height }) {
             className={` pl-0 pr-0 pt-20 ${sidebar}  border-4 border-red-600 rounded-t-full rounded-b-full flex flex-col justify-between`}
           >
             <nav className="flex flex-col gap-4">
-              {navs.map((item) => (
+              {navs?.map((item) => (
                 <div
                   key={item.name}
                   className="border-2 border-r-0  hover:bg-red-500  rounded-l-full py-2 pl-3 pr-0 ml-4"

@@ -136,7 +136,7 @@ export default function Project01() {
               <div className="text-red-600 font-bold">Description</div>
               <div className="font-semibold sm:text-base text-sm">
                 A comprehensive software solution tailored for managing all
-                aspects of a school's operations. From student enrollment and
+                aspects of a schools operations. From student enrollment and
                 attendance tracking to faculty management and examination
                 scheduling, the School Management Software (SMS) streamlines
                 administrative tasks and enhances communication between
