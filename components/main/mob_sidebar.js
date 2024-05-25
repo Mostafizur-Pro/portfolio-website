@@ -83,7 +83,7 @@ export default function MobileSidebar({ navs, width }) {
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ delay: 0.8, duration: 1 }}
-              class="w-12 h-12 text-white rounded-full mt-0  inline-flex items-center justify-center  "
+              className="w-12 h-12 text-white rounded-full mt-0  inline-flex items-center justify-center  "
             >
               <Image
                 src="/images/projects/spin.png"

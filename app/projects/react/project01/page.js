@@ -1,13 +1,15 @@
 "use client";
 
 import React from "@/components/main/react";
+// import React from "@/components/main/react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Project01() {
   return (
-    <React>
+    <React
+    >
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

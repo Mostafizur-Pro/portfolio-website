@@ -8,10 +8,10 @@ import { usePathname } from "next/navigation";
 
 export default function Sidebar({ navs, height }) {
   const [isVisible, setIsVisible] = useState(false);
-  const [sidebarAnimate, setSidebarAnimate] = useState(true);
+  // const [sidebarAnimate, setSidebarAnimate] = useState(true);
   const [justify, setJustify] = useState("justify-end");
 
-  // var sidebarAnimate;
+  var sidebarAnimate;
 
   const pathname = usePathname();
 
@@ -26,9 +26,10 @@ export default function Sidebar({ navs, height }) {
     pathname.includes("/project06") ||
     pathname.includes("/project07")
   ) {
-    setSidebarAnimate(false);
+    // setSidebarAnimate(false);
+    sidebarAnimate = false;
   } else {
-    setSidebarAnimate(true);
+    sidebarAnimate = true;
   }
 
   useEffect(() => {
@@ -83,7 +84,7 @@ export default function Sidebar({ navs, height }) {
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ delay: 0.8, duration: 1 }}
-              class="w-36 h-36 text-white rounded-full mt-6  inline-flex items-center justify-center  "
+              className="w-36 h-36 text-white rounded-full mt-6  inline-flex items-center justify-center  "
             >
               <Image
                 src="/images/projects/spin.png"
@@ -136,3 +137,107 @@ export default function Sidebar({ navs, height }) {
     );
   }
 }
+
+// "use client";
+
+// import Link from "next/link";
+// import { motion } from "framer-motion";
+// import { useState, useEffect } from "react";
+// import Image from "next/image";
+// import { usePathname } from "next/navigation";
+
+// export default function Sidebar({ navs, height }) {
+//   const [isVisible, setIsVisible] = useState(false);
+//   const [sidebarAnimate, setSidebarAnimate] = useState(true);
+//   const [justify, setJustify] = useState("justify-end");
+
+//   const pathname = usePathname();
+
+//   useEffect(() => {
+//     const animateSidebar = !(
+//       pathname.includes("/webinfo") ||
+//       pathname.includes("/myinfo") ||
+//       pathname.includes("/project01") ||
+//       pathname.includes("/project02") ||
+//       pathname.includes("/project03") ||
+//       pathname.includes("/project04") ||
+//       pathname.includes("/project05") ||
+//       pathname.includes("/project06") ||
+//       pathname.includes("/project07")
+//     );
+//     setSidebarAnimate(animateSidebar);
+//   }, [pathname]);
+
+//   useEffect(() => {
+//     if (sidebarAnimate) {
+//       const timeout = setTimeout(() => {
+//         setIsVisible(true);
+//         setJustify("justify-between");
+//       }, 1500);
+
+//       return () => clearTimeout(timeout);
+//     }
+//   }, [sidebarAnimate]);
+
+//   const sidebarClass = height == 384 ? "sidebar_A" : "sidebar_B";
+
+//   return (
+//     <aside className="mt-2 hidden sm:block">
+//       <div className="p-2 border-sidebar border-4 rounded-t-full rounded-b-full">
+//         <motion.div
+//           initial={sidebarAnimate ? { opacity: 0 } : {}}
+//           animate={sidebarAnimate ? { opacity: 1 } : {}}
+//           transition={{ delay: 0.8 }}
+//           className={`pl-0 pr-0 pt-20 ${sidebarAnimate ? 'border-red-600' : ''} border-4 rounded-t-full rounded-b-full flex flex-col ${justify} bg-slate-500 bg-opacity-20`}
+//           style={{ height: sidebarAnimate ? undefined : height }}
+//         >
+//           {sidebarAnimate ? (
+//             isVisible && (
+//               <motion.nav className="flex flex-col gap-4">
+//                 {navs?.map((item) => (
+//                   <motion.div
+//                     key={item.name}
+//                     initial={{ opacity: 0 }}
+//                     animate={{ opacity: 1 }}
+//                     transition={{ delay: item.delay, duration: 0.6 }}
+//                     className="border-2 border-r-0 hover:bg-red-500 rounded-l-full py-2 pl-3 pr-0 ml-4"
+//                   >
+//                     <Link href={item.href} className="text-gray-100">
+//                       {item.name}
+//                     </Link>
+//                   </motion.div>
+//                 ))}
+//               </motion.nav>
+//             )
+//           ) : (
+//             <nav className="flex flex-col gap-4">
+//               {navs?.map((item) => (
+//                 <div
+//                   key={item.name}
+//                   className="border-2 border-r-0 hover:bg-red-500 rounded-l-full py-2 pl-3 pr-0 ml-4"
+//                 >
+//                   <Link href={item.href} className="text-gray-100">
+//                     {item.name}
+//                   </Link>
+//                 </div>
+//               ))}
+//             </nav>
+//           )}
+
+//           <motion.div
+//             animate={sidebarAnimate ? { rotate: 360 } : {}}
+//             transition={{ delay: 0.8, duration: 1 }}
+//             className="w-36 h-36 text-white rounded-full mt-6 inline-flex items-center justify-center"
+//           >
+//             <Image
+//               src="/images/projects/spin.png"
+//               width={500}
+//               height={500}
+//               alt="spin"
+//             />
+//           </motion.div>
+//         </motion.div>
+//       </div>
+//     </aside>
+//   );
+// }

@@ -13,24 +13,29 @@ export default function Myinfo() {
         transition={{ delay: 2, duration: 0.5 }}
         className="grow m-2  rounded-xl flex flex-col bg-slate-500 bg-opacity-5"
       >
-        <Image src="/images/projects/corner1.png" width={100} height={100} alt="spin" />
+        <Image
+          src="/images/projects/corner1.png"
+          width={100}
+          height={100}
+          alt="spin"
+        />
         <div className="px-8 grow">
           <div className="text-white font-bold sm:text-3xl text-2xl ml-6 mt-2">
             My Information
           </div>
 
           <div className="text-white ml-6 mt-8 text-base font-semibold">
-            <p className="text-center sm:text-start">
+            <p className="text-justify sm:text-justify ">
               {" "}
               Hi! I am{" "}
-              <span className="text-red-600 font-bold">Mostafizur Rahman</span>. As a
-              dedicated and aspiring software developer, I am passionate about
-              my skill in Computer science engineering to create innovative and
-              user-friendly software. Along with hands-on experience in web
-              development, I enjoy complex problem solving with logical thinking
-              and have a good practice of UI UX designing. Committed to
-              continuous learning, I am eager to contribute to dynamic software
-              development projects and make a meaningful impact in industry.
+              <span className="text-red-600 font-bold">Mostafizur Rahman</span>.
+              As a dedicated and aspiring software developer, I am passionate
+              about my skill in Computer science engineering to create
+              innovative and user-friendly software. Along with hands-on
+              experience in web development, I enjoy complex problem solving
+              with logical thinking . Committed to continuous learning, I am
+              eager to contribute to dynamic software development projects and
+              make a meaningful impact in industry.
             </p>
           </div>
         </div>
