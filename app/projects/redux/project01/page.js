@@ -21,7 +21,7 @@ export default function Project01() {
           alt="spin"
         />
         <div className="sm:px-8 px-4 grow">
-        <nav className="flex mb-5" aria-label="Breadcrumb">
+          <nav className="flex mb-5" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
               <li className="inline-flex items-center">
                 <a

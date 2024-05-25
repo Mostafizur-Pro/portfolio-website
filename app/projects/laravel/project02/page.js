@@ -14,10 +14,15 @@ export default function Project02() {
         transition={{ delay: 2, duration: 0.5 }}
         className="grow m-2  rounded-xl flex flex-col bg-slate-500 bg-opacity-5"
       >
-        <Image src="/images/projects/corner1.png" width={100} height={100} alt="spin" />
+        <Image
+          src="/images/projects/corner1.png"
+          width={100}
+          height={100}
+          alt="spin"
+        />
         <div className="sm:px-8 px-4 grow">
           <div className="text-white font-bold text-3xl ml-6 mt-2">
-            Laundry Online Serive Management
+            Business Profile
           </div>
 
           <div className="text-white ml-6 mt-8 text-base ">

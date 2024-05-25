@@ -17,7 +17,7 @@ export default function Project02() {
         <Image src="/images/projects/corner1.png" width={100} height={100} alt="spin" />
         <div className="sm:px-8 px-4 grow">
           <div className="text-white font-bold text-3xl ml-6 mt-2">
-            Laundry Online Serive Management
+            Accounting Software
           </div>
 
           <div className="text-white ml-6 mt-8 text-base ">

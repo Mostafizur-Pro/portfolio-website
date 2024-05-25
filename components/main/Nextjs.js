@@ -12,19 +12,19 @@ export default function Nextjs({ children }) {
   const ProjnavNextjs = [
     {
       name: "Project-01",
-      href: "/projects/next/project01",
+      href: "/projects/nextjs/project01",
       current: true,
       delay: 0.5,
     },
     {
       name: "Project-02",
-      href: "/projects/next/project02",
+      href: "/projects/nextjs/project02",
       current: false,
       delay: 0.8,
     },
     {
       name: "Project-03",
-      href: "/projects/next/project03",
+      href: "/projects/nextjs/project03",
       current: false,
       delay: 1,
     },
@@ -57,9 +57,9 @@ export default function Nextjs({ children }) {
   // console.log('hi', pathname)
 
   const mob_nav = [
-    { name: "1", href: "/projects/next/project01", current: true, delay: 0.5 },
-    { name: "2", href: "/projects/next/project02", current: false, delay: 0.8 },
-    { name: "3", href: "/projects/next/project03", current: false, delay: 1 },
+    { name: "1", href: "/projects/nextjs/project01", current: true, delay: 0.5 },
+    { name: "2", href: "/projects/nextjs/project02", current: false, delay: 0.8 },
+    { name: "3", href: "/projects/nextjs/project03", current: false, delay: 1 },
     // { name: "4", href: "/projects/next/project04", current: false, delay: 1.2 },
     // { name: "5", href: "/projects/next/project05", current: false, delay: 1.4 },
     // { name: "6", href: "/projects/next/project06", current: false, delay: 1.6 },
