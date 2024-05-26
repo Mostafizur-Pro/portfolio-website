@@ -34,24 +34,24 @@ export default function Laravel({ children }) {
       current: false,
       delay: 1.2,
     },
-    {
-      name: "Project-05",
-      href: "/projects/laravel/project05",
-      current: false,
-      delay: 1.4,
-    },
-    {
-      name: "Project-06",
-      href: "/projects/laravel/project06",
-      current: false,
-      delay: 1.6,
-    },
-    {
-      name: "Project-07",
-      href: "/projects/laravel/project07",
-      current: false,
-      delay: 1.8,
-    },
+    // {
+    //   name: "Project-05",
+    //   href: "/projects/laravel/project05",
+    //   current: false,
+    //   delay: 1.4,
+    // },
+    // {
+    //   name: "Project-06",
+    //   href: "/projects/laravel/project06",
+    //   current: false,
+    //   delay: 1.6,
+    // },
+    // {
+    //   name: "Project-07",
+    //   href: "/projects/laravel/project07",
+    //   current: false,
+    //   delay: 1.8,
+    // },
   ];
   // const pathname = usePathname();
   // console.log('hi', pathname)
@@ -81,24 +81,24 @@ export default function Laravel({ children }) {
       current: false,
       delay: 1.2,
     },
-    {
-      name: "5",
-      href: "/projects/laravel/project05",
-      current: false,
-      delay: 1.4,
-    },
-    {
-      name: "6",
-      href: "/projects/laravel/project06",
-      current: false,
-      delay: 1.6,
-    },
-    {
-      name: "7",
-      href: "/projects/laravel/project07",
-      current: false,
-      delay: 1.8,
-    },
+    // {
+    //   name: "5",
+    //   href: "/projects/laravel/project05",
+    //   current: false,
+    //   delay: 1.4,
+    // },
+    // {
+    //   name: "6",
+    //   href: "/projects/laravel/project06",
+    //   current: false,
+    //   delay: 1.6,
+    // },
+    // {
+    //   name: "7",
+    //   href: "/projects/laravel/project07",
+    //   current: false,
+    //   delay: 1.8,
+    // },
   ];
   const navItems = [
     {
