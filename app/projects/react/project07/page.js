@@ -182,15 +182,7 @@ export default function Project07() {
                 alt="spin"
               />
             </div>
-            {/* <div className="sm:ml-6 mt-4">
-              <Image
-                src="/images/react/project06/image05.png"
-                width={700}
-                height={700}
-                className="border-4 border-sky-300 rounded-lg"
-                alt="spin"
-              />
-            </div> */}
+           
 
             <table>
               <tbody>
@@ -215,13 +207,13 @@ export default function Project07() {
                   <td className="px-2 pb-6">-</td>
                   <td className="font-semibold text-white  sm:text-base text-sm pl-6 pt-0">
                     <ul className="list-disc">
-                      <li>React</li>
-                      <li>JavaScript</li>
+                      <li>React + Vite</li>
+                      <li>TypeScript</li>
                       <li>Tailwind CSS and DaisyUI</li>
                     </ul>
                   </td>
                 </tr>
-                <tr>
+                {/* <tr>
                   <td className="font-bold text-white  text-base py-10">
                     Back End Tools
                   </td>
@@ -234,7 +226,7 @@ export default function Project07() {
                       <li>MongoDB</li>
                     </ul>
                   </td>
-                </tr>
+                </tr> */}
                 <tr>
                   <td className="font-bold text-white  text-base ">
                     Source code
