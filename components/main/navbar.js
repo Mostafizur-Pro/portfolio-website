@@ -56,7 +56,7 @@ export default function Navbar() {
               Skills
             </Link>
             <Link
-              href={"/projects"}
+              href={"/projects/react/project01"}
               className="border-2 border-sky-300 text-gray-100 hover:bg-red-500 rounded-full sm:px-3 sm:py-2 px-2 py-1 text-sm font-medium"
             >
               Projects
